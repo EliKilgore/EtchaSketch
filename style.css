@@ -1,13 +1,8 @@
-html {
-    position: relative;
-}
 
 body {
     background-color: #ededed;
     color: #333;
     font-family: 'Bebas Neue', cursive;
-    max-height: 95%;
-
 }
 
 main {
@@ -15,7 +10,6 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-height: 100vh;
     gap: 100px;
 }
 
