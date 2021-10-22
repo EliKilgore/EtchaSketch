@@ -1,18 +1,12 @@
 body {
     background-color: #ededed;
-    color: #dd1515;
+    color: #333;
     font-family: 'Bebas Neue', cursive;
     height: 100vh;
     margin: 0;
     display: flex;
     flex-direction:column;
     align-items: stretch;
-}
-
-header {
-    text-align: center;
-    font-size: 64px;
-    padding: 16px;
 }
 
 main {
@@ -78,16 +72,31 @@ main {
     font-size: 24px;
 }
 
+.etchasketch {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #dd1515;
+    border: 16px outset #dd1515;
+    border-radius: 8px;
+    padding: 32px 64px 64px 64px;
+}
+
+.title {
+    color:gold;
+    font-size: 54px;
+    font-family: 'Bonheur Royale';
+    padding: 8px;
+}
+
 #drawingBoard {
-    background-color: #fefefe;
+    background-color: #ededed;
     display:grid;
     height: 40vw;
     width: 40vw;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    border: 32px solid #dd1515;
-    border-radius: 32px;
 }
-
 
 footer {
     text-align: center;
