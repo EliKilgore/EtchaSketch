@@ -41,6 +41,7 @@ main {
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.18);
     text-transform: uppercase;
     margin:  0px 0px 32px 0px;
+    cursor: pointer;
 }
 
 .slider {
@@ -76,11 +77,15 @@ main {
 .sliderValue {
     font-size: 24px;
 }
-.drawingBoard {
+#drawingBoard {
     background-color: #fefefe;
-    display:flex;
-    flex-wrap: wrap;
+    display:grid;
+    height: 40vw;
+    width: 40vw;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
 }
+
 
 footer {
     text-align: center;
