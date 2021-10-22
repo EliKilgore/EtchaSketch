@@ -1,6 +1,6 @@
 body {
     background-color: #ededed;
-    color: #333;
+    color: #dd1515;
     font-family: 'Bebas Neue', cursive;
     height: 100vh;
     margin: 0;
@@ -12,7 +12,7 @@ body {
 header {
     text-align: center;
     font-size: 64px;
-    padding: 8px;
+    padding: 16px;
 }
 
 main {
@@ -49,7 +49,7 @@ main {
     appearance: none;
     width: 200px;
     height: 10px;
-    border-radius: 8px;
+    border-radius: 32px;
     background: #fefefe;
     outline-style: solid;
     outline-color: #333;
@@ -74,16 +74,18 @@ main {
     border-radius: 50%;
 }
 
-.sliderValue {
+#sliderValue {
     font-size: 24px;
 }
+
 #drawingBoard {
     background-color: #fefefe;
     display:grid;
     height: 40vw;
     width: 40vw;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-
+    border: 32px solid #dd1515;
+    border-radius: 32px;
 }
 
 
